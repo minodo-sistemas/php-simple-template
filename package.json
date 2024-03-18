@@ -1,0 +1,17 @@
+{
+  "name": "php-simple-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "php -S 0.0.0.0:8000 --docroot=src",
+    "prettier": "prettier --write src/*.php"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.22.2",
+    "prettier": "^3.2.5"
+  }
+}

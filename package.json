@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "php -S 0.0.0.0:8000 --docroot=src",
-    "prettier": "prettier --write src/*.php"
+    "prettier": "prettier --write `find ./src -path \"./src/vendor/*\" -prune -o -name \"*.php\" -print`"
   },
   "keywords": [],
   "author": "",
